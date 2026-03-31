@@ -38,4 +38,16 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+# Local history (plugins do VS Code)
+.history/
+
+# Arquivos de log de erros de sistema
+thumbs.db
+
+# pastas de cache de ferramentas de lintin/formatação
+.eslintcache
+
+# Md
+*.md
+!README.md
