@@ -1,26 +1,36 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black text-white">
-      <div className="text-center space-y-4">
+    <main className="flex min-h-screen items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white">
+      <div className="w-full max-w-sm text-center space-y-6">
+        {/* Avatar */}
         <img
-          src="https://via.placeholder.com/100"
+          src="/images/dog1.jpg"
           alt="Avatar"
-          className="rounded-full mx-auto"
+          className="w-24 h-24 rounded-full mx-auto border-2 border-white"
         />
-
+        {/* Nome */}
         <h1 className="text-2x1 font-bold">Guilherme Sona</h1>
         <p className="text-gray-400">@g.sonahx</p>
-
-        <div className="flex flex-col gap-e mt-4">
-          <a href="#" className="bg-white text-black py-2 rounded">
+        {/* Links */}
+        <div className="flex flex-col gap-3">
+          <a
+            href="#"
+            className="bg-white text-black py-3 rounded-xl font-medium hover:scale-105 transition"
+          >
             GitHub
           </a>
 
-          <a href="#" className="bg-white text-black py-2 rounded">
+          <a
+            href="#"
+            className="bg-white text-black py-3 rounded-xl font-medium hover:scale-105 transition"
+          >
             LinkedIn
           </a>
 
-          <a href="#" className="bg-white text-black py-2 rounded">
+          <a
+            href="#"
+            className="bg-white text-black py-3 rounded-xl font-medium hover:scale-105 transition"
+          >
             Instagram
           </a>
         </div>
