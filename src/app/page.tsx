@@ -48,10 +48,14 @@ function useTypingEffect(text: string, speed = 100) {
 
 export default function Home() {
   const links = [
-    { name: "GitHub", url: "#" },
-    { name: "LinkedIn", url: "#" },
-    { name: "Instagram", url: "#" },
-    { name: "Whatsapp", url: "#" },
+    { name: "GitHub", url: "https://github.com/guisona508-create" },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/guilherme-sona-2a6b27206/",
+    },
+    { name: "Instagram", url: "https://www.instagram.com/g.sonahx/" },
+    { name: "Whatsapp", url: "https://wa.me/5511978530088" },
+    { name: "Email", url: "mailto:guisona742121@gmail.com" },
   ];
 
   const typingCat = useTypingEffect("$ cat links.txt", 80);
@@ -79,7 +83,7 @@ export default function Home() {
 
           <h1 className="mt-4 text-lg text-green-300">guilherme@sona:~$</h1>
 
-          <p className="text-sm text-green-500">building cool stuff 🚀</p>
+          <p className="text-sm text-green-500">Developer 🚀</p>
         </div>
 
         {/* Linha digitando */}
@@ -95,6 +99,7 @@ export default function Home() {
               key={link.name}
               href={link.url}
               className="border border-green-400/40 px-4 py-2 rounded-lg hover:bg-green-400 hover:text-black transition-all duration-300 shadow-[0_0_5px_#00ff00] hover:shadow-[0_0_15px_#00ff00]"
+              target="_blank"
             >
               {">"} {link.name}
             </a>
