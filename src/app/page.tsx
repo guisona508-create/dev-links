@@ -56,6 +56,7 @@ export default function Home() {
     { name: "Instagram", url: "https://www.instagram.com/g.sonahx/" },
     { name: "Whatsapp", url: "https://wa.me/5511978530088" },
     { name: "Email", url: "mailto:guisona742121@gmail.com" },
+    { name: "Sobre Mim", url: "/about" },
   ];
 
   const typingCat = useTypingEffect("$ cat links.txt", 80);
