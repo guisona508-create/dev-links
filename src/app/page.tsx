@@ -111,6 +111,15 @@ export default function Home() {
               {">"} {link.name}
             </a>
           ))}
+          <div className="mt-6">
+            <a
+              href="/curriculo_guilherme_sona.pdf"
+              download
+              className="block text-center border border-green-400 px-4 py-2 rounded-lg -lg bg-green-400 text-black hover:bg-transparent hover:text-green-400 transition-all duration-300 shadow-[0_0_10px_#00ff00]"
+            >
+              ↓ Baixar Currículo
+            </a>
+          </div>
         </div>
 
         {/* Rodapé */}
